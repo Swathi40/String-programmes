@@ -1,0 +1,5 @@
+S='saiganesh'
+res=' '
+for ch in S:
+    res=ch+res
+print(res)    
