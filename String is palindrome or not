@@ -1,0 +1,8 @@
+var='dad'
+res=''
+for ch in var:
+    res=res+ch
+if res==var:
+    print('palindrome')
+else:
+    ('not palindrome')
