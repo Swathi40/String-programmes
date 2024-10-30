@@ -1,0 +1,5 @@
+var= 'swathi'
+res=' '
+for ind in range(len(var)-1,-1,-1):
+    res=res+var[ind]
+print(res)    
