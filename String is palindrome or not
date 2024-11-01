@@ -1,3 +1,4 @@
+#Given string is palindrome or not#
 var='dad'
 res=''
 for ch in var:
@@ -6,3 +7,12 @@ if res==var:
     print('palindrome')
 else:
     ('not palindrome')
+
+#given string is palindrome or not another way#
+var='malayalam'
+for ind in range(0,len(var)//2):
+    if var[ind]!=var[-ind-1]:
+        print('not palindrome')
+        break
+else:
+    print('palindrome')
