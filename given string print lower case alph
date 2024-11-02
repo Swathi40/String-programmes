@@ -1,0 +1,17 @@
+#print lowercase elements in given string#
+var='SwatHI'
+res=' '
+for ch in var:
+    if ch.islower():
+        res=res+ch
+print(res)        
+
+
+
+#Another logic for above condition#
+var='VaSavI'
+res=' '
+for ch in var:
+    if 'a'<=ch<='z':
+        res=res+ch
+print(res)        
