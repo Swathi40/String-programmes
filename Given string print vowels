@@ -1,0 +1,10 @@
+#print vowels in given string#
+S='saigaesh'
+res=' '
+for ch in S:
+    if ch in 'aeiouAEIOU':
+        res=res+ch
+print(res)        
+
+#Output#
+aiae
