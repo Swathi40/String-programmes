@@ -1,0 +1,16 @@
+#print uppercase elements in given string#
+var='SwAtHI'
+res=' '
+for ch in var:
+    if ch.isupper():
+        res=res+ch
+print(res)        
+
+
+#Another logic for above condition#
+var='VaSaVI'
+res=' '
+for ch in var:
+    if 'A'<=ch<='Z':
+        res=res+ch
+print(res)        
