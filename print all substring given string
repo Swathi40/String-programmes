@@ -1,0 +1,5 @@
+#print  all substring in given string#
+S='happy'
+for sv in range(len(S)):
+    for ev in range(sv+1,len(S)+1):
+        print(S[sv:ev])
