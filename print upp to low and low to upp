@@ -1,0 +1,9 @@
+#print given string upper to lower and lower to upper#
+S   = 'proGrAMMInG'
+res = ' '
+for ch in S:
+    if 'A'<=ch<'Z':
+        res=res+chr(ord(ch)+32)
+    else:
+        res=res+chr(ord(ch)-32)
+print(res)        
