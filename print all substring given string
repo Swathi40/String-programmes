@@ -3,3 +3,13 @@ S='happy'
 for sv in range(len(S)):
     for ev in range(sv+1,len(S)+1):
         print(S[sv:ev])
+
+
+Another way with using range
+S = 'happy'
+for sv in range(len(S)):
+    for ev in range(sv+1,len(S)+1):
+        res=' '
+        for ind in range(sv,ev):
+            res=res+S[ind]
+        print(res)   
