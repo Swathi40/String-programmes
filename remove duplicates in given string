@@ -1,0 +1,7 @@
+#WAP to remove duplicates from a string#
+S   ='development'
+res = ''
+for ch in S:
+    if ch not in res:
+        res=res+ch
+print(res)    
