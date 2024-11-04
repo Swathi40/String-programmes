@@ -1,0 +1,12 @@
+#WAP to print each & everyword in a string  without using split method# 
+S    = 'hello world bye world'
+l  = []
+word = ''
+for ch in S:
+    if ch!=' ':
+        word=word+ch
+    else:
+        l.append(word) 
+        word=''
+l.append(word)
+print(l)
