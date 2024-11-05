@@ -1,0 +1,10 @@
+#write a programme to reverse the list#
+L=[12,13,14,15]
+L.reverse()
+
+#Another way#
+L   =[12,13,14,15]
+res =[]
+for ind in L:
+    res=[ind]+res
+print(res)    
